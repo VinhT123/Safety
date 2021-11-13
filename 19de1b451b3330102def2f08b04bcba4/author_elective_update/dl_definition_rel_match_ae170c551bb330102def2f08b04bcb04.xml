@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="DELETE">
+        <dl_definition display_value="Inspector Lookup">9be508551bb330102def2f08b04bcb34</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_548352_safety_inspector_lookup_rule</matcher_table>
+        <matcher_table_field>category</matcher_table_field>
+        <source_table>x_548352_safety_issue</source_table>
+        <source_table_field>category</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 07:11:24</sys_created_on>
+        <sys_id>ae170c551bb330102def2f08b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Safety" source="x_548352_safety">19de1b451b3330102def2f08b04bcba4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">19de1b451b3330102def2f08b04bcba4</sys_scope>
+        <sys_update_name>dl_definition_rel_match_ae170c551bb330102def2f08b04bcb04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 07:11:24</sys_updated_on>
+    </dl_definition_rel_match>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">19de1b451b3330102def2f08b04bcba4</application>
+        <file_path/>
+        <instance_id>b11aac941b80f05032182f8dee4bcb8d</instance_id>
+        <instance_name>dev113531</instance_name>
+        <name>dl_definition_rel_match_ae170c551bb330102def2f08b04bcb04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match"><dl_definition_rel_match action="INSERT_OR_UPDATE"><dl_definition display_value="Inspector Lookup">9be508551bb330102def2f08b04bcb34</dl_definition><exact_match>false</exact_match><matcher_table>x_548352_safety_inspector_lookup_rule</matcher_table><matcher_table_field>category</matcher_table_field><source_table>x_548352_safety_issue</source_table><source_table_field>category</source_table_field><sys_class_name>dl_definition_rel_match</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-12 07:11:24</sys_created_on><sys_id>ae170c551bb330102def2f08b04bcb04</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="Safety" source="x_548352_safety">19de1b451b3330102def2f08b04bcba4</sys_package><sys_policy/><sys_scope display_value="Safety">19de1b451b3330102def2f08b04bcba4</sys_scope><sys_update_name>dl_definition_rel_match_ae170c551bb330102def2f08b04bcb04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-12 07:11:24</sys_updated_on></dl_definition_rel_match></record_update>]]></payload>
+        <payload_hash>-1265863077</payload_hash>
+        <record_name>category</record_name>
+        <reverted_from/>
+        <source>55de1b451b3330102def2f08b04bcba6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 07:11:24</sys_created_on>
+        <sys_id>633704951bb330102def2f08b04bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d12fc9cf10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 07:11:24</sys_updated_on>
+        <type>Matcher Field Definitions</type>
+        <update_guid>ab37049580b33010ef362d66ad0afe57</update_guid>
+        <update_guid_history>ab37049580b33010ef362d66ad0afe57:-1265863077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="category">745788951bb330102def2f08b04bcb9f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 07:11:46</sys_created_on>
+        <sys_db_object display_value="" name="dl_definition_rel_match">dl_definition_rel_match</sys_db_object>
+        <sys_id>23b724e05d9f4b7f8788b275b996f229</sys_id>
+        <sys_metadata>ae170c551bb330102def2f08b04bcb04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Safety" source="x_548352_safety">19de1b451b3330102def2f08b04bcba4</sys_package>
+        <sys_parent display_value="Inspector Lookup">9be508551bb330102def2f08b04bcb34</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">19de1b451b3330102def2f08b04bcba4</sys_scope>
+        <sys_scope_delete display_value="">1ea05ca3158948d88514a4793aec6240</sys_scope_delete>
+        <sys_update_name>dl_definition_rel_match_ae170c551bb330102def2f08b04bcb04</sys_update_name>
+        <sys_update_version display_value="dl_definition_rel_match_ae170c551bb330102def2f08b04bcb04">633704951bb330102def2f08b04bcb58</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 07:11:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

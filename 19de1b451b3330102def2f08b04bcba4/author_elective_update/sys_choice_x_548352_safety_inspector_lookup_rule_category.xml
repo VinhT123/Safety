@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_548352_safety_inspector_lookup_rule" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_548352_safety_inspector_lookup_rule</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-12 07:25:45</sys_created_on>
+            <sys_id>658a40191bb330102def2f08b04bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Safety" source="x_548352_safety">19de1b451b3330102def2f08b04bcba4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">19de1b451b3330102def2f08b04bcba4</sys_scope>
+            <sys_update_name>sys_choice_x_548352_safety_inspector_lookup_rule_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-12 07:25:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Big</label>
+            <language>en</language>
+            <name>x_548352_safety_inspector_lookup_rule</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-12 07:26:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>209a48d51bb330102def2f08b04bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-12 07:26:10</sys_updated_on>
+            <value>Big</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

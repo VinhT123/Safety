@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Issue" max_length="40" name="x_548352_safety_issue" sizeclass="29" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="Big" sequence="0" value="Big"/>
+                <element inactive_on_update="false" label="Small" sequence="1" value="Small"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Inspector" max_length="32" name="inspector" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Project" max_length="40" name="project" type="boolean"/>
+    </element>
+</database>
